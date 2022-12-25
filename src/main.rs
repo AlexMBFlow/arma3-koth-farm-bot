@@ -36,9 +36,10 @@ fn main() {
         if rotation_border_1 < 300 {
             rotation_border_1 = rotation_border_1 + 1;
 
+
+            // Так мы каждый раз бежим вперед разное количество времени
             forward_step = forward_step + 1;
             if forward_step < FORWARD_BORDER {
-                // Так мы каждый раз бежим вперед разное количество времени
                 enigo.key_click(Key::Layout('w'));
             }
 
