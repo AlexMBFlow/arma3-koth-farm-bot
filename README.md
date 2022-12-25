@@ -10,11 +10,11 @@
   <li>Бот ждет от 0 до 100 секунд</li>
   <li>Бот начинает сначала с первого пункта и до бесконечности</li>
 </ul>
-https://github.com/AlexMBFlow/arma3-koth-farm-bot/blob/master/arma.exe?raw=true
+
 <h2>Использование:</h2>
 <ul>
   <li>Скачать бота по ссылке, или самим, если умеется пользовать гитхабом
-    https://github.com/AlexMBFlow/arma3-koth-farm-bot/blob/master/arma.exe?raw=true
+    <p>https://github.com/AlexMBFlow/arma3-koth-farm-bot/blob/master/arma.exe?raw=true</p>
   </li>
   <li>Зайти на koth, желательно на сервер с 0-1 человек</li>
   <li>Взять перк MONEY, на момент создания бота версия koth v16</li>
