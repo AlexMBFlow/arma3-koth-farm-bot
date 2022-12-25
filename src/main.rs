@@ -22,7 +22,7 @@ fn main() {
     enigo.key_down(Key::Shift);
     let mut is_right_direction: bool = generate_random_number() % 2 == 0;
 
-    while true {
+    loop {
         let cool_down = time::Duration::from_millis(generate_random_number() as u64 * 1000);
 
         let mut forward_border: u64 = 200;
@@ -51,8 +51,6 @@ fn main() {
             enigo.key_up(Key::Shift);
             thread::sleep(cool_down);
             is_right_direction = generate_random_number() % 2 == 0;
-            //println!("{:?}", cool_down);
-            //cool_down = time::Duration::from_millis(generate_random_number() as u64);
         }
     }
 }
