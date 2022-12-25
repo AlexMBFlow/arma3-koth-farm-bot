@@ -7,6 +7,4 @@ edition = "2021"
 
 [dependencies]
 enigo = "0.0.14"
-piston_window = "*"
-winput = "0.2.5"
 rand = "*"
