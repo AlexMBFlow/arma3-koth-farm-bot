@@ -14,7 +14,7 @@
 <h2>Использование:</h2>
 <ul>
   <li>Скачать бота по ссылке, или самим, если умеется пользовать гитхабом
-    <p>https://github.com/AlexMBFlow/arma3-koth-farm-bot/blob/master/arma.exe?raw=true</p>
+    <p>https://github.com/AlexMBFlow/arma3-koth-farm-bot/blob/master/arma_koth_farm_bot.exe?raw=true</p>
   </li>
   <li>Зайти на koth, желательно на сервер с 0-1 человек</li>
   <li>Взять перк MONEY, на момент создания бота версия koth v16</li>
