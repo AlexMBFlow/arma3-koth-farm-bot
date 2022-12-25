@@ -1,8 +1,6 @@
-extern crate piston_window;
-
 use enigo::*;
 use rand::*;
-use std::{println, thread, time};
+use std::{thread, time};
 
 fn generate_random_number() -> u64 {
     let mut rng = rand::thread_rng();
@@ -10,7 +8,6 @@ fn generate_random_number() -> u64 {
     movement_timer = movement_timer * 100 as f64;
     movement_timer = movement_timer.round();
     let num: u64 = movement_timer as u64;
-    //println!("{:?}", time);
     return num;
 }
 
