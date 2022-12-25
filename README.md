@@ -1,4 +1,4 @@
-<h1 style="center">ARMA 3 KING OF THE HILL FARM BOT</h1>
+<h1 align="center">ARMA 3 KING OF THE HILL FARM BOT</h1>
 
 <h2>Использование:</h2>
 <ul>
