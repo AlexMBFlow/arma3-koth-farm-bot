@@ -22,7 +22,7 @@ fn main() {
     enigo.key_down(Key::Shift);
     let mut is_right_direction: bool = generate_random_number() % 2 == 0;
 
-    loop {
+    while true {
         let cool_down = time::Duration::from_millis(generate_random_number() as u64 * 1000);
 
         let mut forward_border: u64 = 200;
