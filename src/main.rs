@@ -4,7 +4,7 @@ use std::{thread, time};
 
 fn generate_random_number() -> u64 {
     let mut rng = rand::thread_rng();
-    let mut movement_timer: f64 = rng.gen(); // generates a float between 0 and 1
+    let mut movement_timer: f64 = rng.gen();
     movement_timer = movement_timer * 100 as f64;
     movement_timer = movement_timer.round();
     let num: u64 = movement_timer as u64;
@@ -35,8 +35,6 @@ fn main() {
                 enigo.key_click(Key::Layout('w'));
             }
 
-            //enigo.key_click(Key::Layout('a'));
-            //println!("{:?}", is_right_direction);
             if is_right_direction {
                 enigo.mouse_move_relative(generate_random_number() as i32, 6);
             } else {
