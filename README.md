@@ -1,5 +1,7 @@
 <h1 align="center">ARMA 3 KING OF THE HILL FARM BOT</h1>
 
+<h2 color="red">WARNING!!!</h2>
+
 <h2>Использование:</h2>
 <ul>
   <li>Зайти на koth, желательно на сервер с 0-1 человек</li>
