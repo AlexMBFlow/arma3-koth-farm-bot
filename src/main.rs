@@ -9,7 +9,7 @@ fn generate_random_number() -> u64 {
     let mut rng = rand::thread_rng();
     let mut movement_timer: f64 = rng.gen();
 
-    // POV: когда не знаешь приведение типом в языке, на котором пишешь))
+    // POV: когда не знаешь приведение типов в языке, на котором пишешь))
     movement_timer = movement_timer * 100 as f64;
     movement_timer = movement_timer.round();
     let num: u64 = movement_timer as u64;
